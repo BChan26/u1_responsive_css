@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 80px;
+    color: green
+}
+
+a:hover {
+    font-size: 26px;
+}
+
+button:hover {
+    background-color: gold
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #5656db
+    }
+
+    h1 {
+        color: rgb(250, 0, 216)
+    }
+
+    nav {
+        justify-content: space-evenly
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: green;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    #btn {
+        display: none;
+    }
+}
